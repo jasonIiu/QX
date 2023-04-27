@@ -1,4 +1,4 @@
-hostname = www.google.cn,www.bing.com,sydney.bing.com
+hostname = www.google.cn,www.bing.com
 
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
-^https?:\/\/(?:www|sydney)\.bing\.com\/.* url script-request-header https://raw.githubusercontent.com/jasonIiu/QX/main/ua.js
+^https:\/\/www\.bing\.com\/(?:search|new) url script-request-header https://raw.githubusercontent.com/jasonIiu/QX/main/ua.js
