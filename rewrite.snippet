@@ -1,5 +1,4 @@
-hostname = www.google.cn,www.bing.com,app-api.smzdm.com
+hostname = www.google.cn,app-api.smzdm.com
 
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
-^https?:\/\/www\.bing\.com\/(?:search|new) url script-request-header https://raw.githubusercontent.com/jasonIiu/QX/main/ua.js
 ^https?:\/\/app-api\.smzdm\.com\/util\/loading url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
